@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- report qweb view -->
+        <report id="report_qontak_webhook_qontak_token_menu" string="Qontak webhook - Qontak token"
+         model="qontak_webhook.qontak_token" report_type="qweb-pdf" 
+         file="qontak_webhook.qontak_token"  name="qontak_webhook.qontak_webhook_qontak_token_report" />
+
+        <!-- document template -->
+        <template id="qontak_webhook.qontak_webhook_qontak_token_report_document" >
+            <t t-call="web.external_layout">
+                <t t-set="doc" t-value="doc.with_context({'lang': lang})"/>
+                <div class="page">
+                    <h2>
+                        Qontak token: <span t-field="doc.name"/>
+                    </h2>
+                    <div class="row mt32 mb32">
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Access token</strong>
+                            <p class="m-0" t-field="doc.access_token" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Token type</strong>
+                            <p class="m-0" t-field="doc.token_type" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Expires in</strong>
+                            <p class="m-0" t-field="doc.expires_in" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Refresh token</strong>
+                            <p class="m-0" t-field="doc.refresh_token" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Created at</strong>
+                            <p class="m-0" t-field="doc.created_at" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Username</strong>
+                            <p class="m-0" t-field="doc.username" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Password</strong>
+                            <p class="m-0" t-field="doc.password" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Grant type</strong>
+                            <p class="m-0" t-field="doc.grant_type" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Client</strong>
+                            <p class="m-0" t-field="doc.client_id" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Client secret</strong>
+                            <p class="m-0" t-field="doc.client_secret" />
+                        </div>
+                        <div class="col-auto mw-100 mb-2">
+                            <strong>Account type</strong>
+                            <p class="m-0" t-field="doc.account_type" />
+                        </div>
+                    </div>
+                </div>
+                <div class="oe_structure"/>
+            </t>
+        </template>
+
+        <!-- main template -->
+        <template id="qontak_webhook.qontak_webhook_qontak_token_report">
+            <t t-call="web.html_container">
+                <t t-foreach="docs" t-as="doc">
+                    <t t-set="lang" t-value="doc.create_uid.lang"/>
+                    <t t-call="qontak_webhook.qontak_webhook_qontak_token_report_document" />
+                </t>
+            </t>
+        </template>
+
+    </data>
+</odoo>

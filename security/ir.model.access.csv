@@ -1,0 +1,11 @@
+"id","name","model_id:id","group_id:id","perm_read","perm_write","perm_create","perm_unlink"
+access_all_qontak_webhook_qontak_token,access_all_qontak_webhook_qontak_token,model_qontak_token,,1,0,0,0
+access_admin_qontak_webhook_qontak_token,access_admin_qontak_webhook_qontak_token,model_qontak_token,base.group_system,1,1,1,1
+access_all_qontak_webhook_qontak_log,access_all_qontak_webhook_qontak_log,model_qontak_log,,1,0,0,0
+access_admin_qontak_webhook_qontak_log,access_admin_qontak_webhook_qontak_log,model_qontak_log,base.group_system,1,1,1,1
+access_all_qontak_webhook_qontak_bot,access_all_qontak_webhook_qontak_bot,model_qontak_bot,,1,0,0,0
+access_admin_qontak_webhook_qontak_bot,access_admin_qontak_webhook_qontak_bot,model_qontak_bot,base.group_system,1,1,1,1
+access_all_qontak_webhook_qontak_template,access_all_qontak_webhook_qontak_template,model_qontak_template,,1,0,0,0
+access_admin_qontak_webhook_qontak_template,access_admin_qontak_webhook_qontak_template,model_qontak_template,base.group_system,1,1,1,1
+access_all_qontak_webhook_qontak_channel,access_all_qontak_webhook_qontak_channel,model_qontak_channel,,1,0,0,0
+access_admin_qontak_webhook_qontak_channel,access_admin_qontak_webhook_qontak_channel,model_qontak_channel,base.group_system,1,1,1,1

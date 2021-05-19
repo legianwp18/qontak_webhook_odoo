@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- tree view -->
+        <record id="view_qontak_webhook_qontak_log_tree" model="ir.ui.view">
+            <field name="name">qontak_webhook_qontak_log_tree</field>
+            <field name="model">qontak.log</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Qontak log">
+                    <field name="date" />
+                    <field name="data" />
+                </tree>
+            </field>
+        </record>
+        <!-- form view -->
+        <record id="view_qontak_webhook_qontak_log_form" model="ir.ui.view">
+            <field name="name">qontak_webhook_qontak_log_form</field>
+            <field name="model">qontak.log</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Qontak log">
+                    <sheet>
+                        <group>
+                            <field name="date" />
+                            <field name="data" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!-- search -->
+        <record id="view_qontak_webhook_qontak_log_search" model="ir.ui.view">
+            <field name="name">qontak_webhook_qontak_log</field>
+            <field name="model">qontak.log</field>
+            <field name="arch" type="xml">
+                <search string="Qontak log">
+                    <filter string="Data" name="filter_by_data" domain="[('data','=','')]" />
+                    <field name="data" select="True"/>
+                    <group string="Group By..">
+                    </group>
+                </search>
+            </field>
+        </record>
+        <!-- action window -->
+        <record id="action_qontak_webhook_qontak_log" model="ir.actions.act_window">
+            <field name="name">Qontak log</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">qontak.log</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{"search_default_fieldname":1}</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                Click to add a new Qontak log
+                </p><p>
+                Click the Create button to add a new Qontak log
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_qontak_webhook_qontak_log" name="Qontak log" parent="qontak_webhook_sub_menu" action="action_qontak_webhook_qontak_log" sequence="20"/>
+    </data>
+</odoo>

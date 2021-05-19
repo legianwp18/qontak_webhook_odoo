@@ -1,0 +1,6 @@
+<odoo>
+	<data>
+		<menuitem id="qontak_webhook_top_menu" name="Qontak webhook" sequence="20" web_icon="qontak_webhook,static/description/icon.png" />
+		<menuitem id="qontak_webhook_sub_menu" name="Configuration" sequence="10" parent="qontak_webhook_top_menu" web_icon="qontak_webhook,static/description/icon.png" />
+	</data>
+</odoo>

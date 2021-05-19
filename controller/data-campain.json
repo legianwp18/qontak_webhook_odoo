@@ -1,0 +1,176 @@
+[
+    {
+       "status":"delivered",
+       "created_at":"2021-04-21T02:12:03.913Z",
+       "sender":{
+          "name":"Bot",
+          "avatar":null
+       },
+       "room":{
+          "status":"campaign",
+          "resolved_at":null,
+          "description":"Legian Wahyu Prananta-792fe4b1-c239-48ab-b547-ee5f3aaaef34 ",
+          "session_at":"2021-03-29T06:56:04.724Z",
+          "tags":[
+             
+          ],
+          "external_id":null,
+          "created_at":"2021-03-29T06:56:04.724Z",
+          "channel_integration_id":"7110bef1-83e4-4622-8a4b-09535f7beff9",
+          "updated_at":"2021-03-29T06:56:04.724Z",
+          "channel_account":"Aston Graphindo",
+          "organization_id":"8102661e-93ef-40e8-b402-ef7db4737ce6",
+          "unread_count":0,
+          "resolved_by_id":null,
+          "resolved_by_type":null,
+          "avatar":{
+             "medium":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png",
+             "filename":null,
+             "large":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "small":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "size":0
+          },
+          "account_uniq_id":"6281542063225",
+          "type":"Models::CustomerServiceRoom",
+          "id":"6f5179e2-1a70-4b7e-8f86-99c9df033f2e",
+          "channel":"wa",
+          "name":"Legian Wahyu Prananta"
+       },
+       "text":"Pandemi covid menyebabkan anggaran belanja dipangkas. Pemotongan anggaran belanja juga menyebabkan keterbatasan dalam memilih katrid toner. Katrid toner orimax, hadir memberikan solusi untuk kebutuhan cetak dengan anggaran terbatas. Orimax memiliki kualitas sama dengan original. Orimax telah dipercaya oleh ribuan instansi dan perkantoran di seluruh Indonesia. \nSolusi cerdas dengan anggaran terbatas, ya Orimax. \n\nLink form/WA/landingpage",
+       "is_campaign":true,
+       "sender_id":"2fcf11ac-5d78-475a-9000-fea426e3c270",
+       "sender_type":"Models::SystemAccount",
+       "organization_id":"8102661e-93ef-40e8-b402-ef7db4737ce6",
+       "participant_type":"bot",
+       "local_id":null,
+       "room_id":"6f5179e2-1a70-4b7e-8f86-99c9df033f2e",
+       "participant_id":"3291ac5a-9ad4-48be-a591-c02909ca2a76",
+       "reply":null,
+       "type":"text",
+       "id":"2ef20739-db21-441a-80c5-56c347323978",
+       "external_id":"gBGHYoFUIGMiXwIJ0DleeF9Pn-ah"
+    },
+    {
+       "status":"sent",
+       "created_at":"2021-04-21T02:12:03.913Z",
+       "sender":{
+          "name":"Bot",
+          "avatar":null
+       },
+       "room":{
+          "status":"campaign",
+          "resolved_at":null,
+          "description":"Legian Wahyu Prananta-792fe4b1-c239-48ab-b547-ee5f3aaaef34 ",
+          "session_at":"2021-03-29T06:56:04.724Z",
+          "tags":[
+             
+          ],
+          "external_id":null,
+          "created_at":"2021-03-29T06:56:04.724Z",
+          "channel_integration_id":"7110bef1-83e4-4622-8a4b-09535f7beff9",
+          "updated_at":"2021-03-29T06:56:04.724Z",
+          "channel_account":"Aston Graphindo",
+          "organization_id":"8102661e-93ef-40e8-b402-ef7db4737ce6",
+          "unread_count":0,
+          "resolved_by_id":null,
+          "resolved_by_type":null,
+          "avatar":{
+             "medium":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png",
+             "filename":null,
+             "large":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "small":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "size":0
+          },
+          "account_uniq_id":"6281542063225",
+          "type":"Models::CustomerServiceRoom",
+          "id":"6f5179e2-1a70-4b7e-8f86-99c9df033f2e",
+          "channel":"wa",
+          "name":"Legian Wahyu Prananta"
+       },
+       "text":"Pandemi covid menyebabkan anggaran belanja dipangkas. Pemotongan anggaran belanja juga menyebabkan keterbatasan dalam memilih katrid toner. Katrid toner orimax, hadir memberikan solusi untuk kebutuhan cetak dengan anggaran terbatas. Orimax memiliki kualitas sama dengan original. Orimax telah dipercaya oleh ribuan instansi dan perkantoran di seluruh Indonesia. \nSolusi cerdas dengan anggaran terbatas, ya Orimax. \n\nLink form/WA/landingpage",
+       "is_campaign":true,
+       "sender_id":"2fcf11ac-5d78-475a-9000-fea426e3c270",
+       "sender_type":"Models::SystemAccount",
+       "organization_id":"8102661e-93ef-40e8-b402-ef7db4737ce6",
+       "participant_type":"bot",
+       "local_id":null,
+       "room_id":"6f5179e2-1a70-4b7e-8f86-99c9df033f2e",
+       "participant_id":"3291ac5a-9ad4-48be-a591-c02909ca2a76",
+       "reply":null,
+       "type":"text",
+       "id":"2ef20739-db21-441a-80c5-56c347323978",
+       "external_id":"gBGHYoFUIGMiXwIJ0DleeF9Pn-ah"
+    },
+    {
+       "status":"read",
+       "created_at":"2021-04-21T02:12:03.913Z",
+       "sender":{
+          "name":"Bot",
+          "avatar":null
+       },
+       "room":{
+          "status":"campaign",
+          "resolved_at":null,
+          "description":"Legian Wahyu Prananta-792fe4b1-c239-48ab-b547-ee5f3aaaef34 ",
+          "session_at":"2021-03-29T06:56:04.724Z",
+          "tags":[
+             
+          ],
+          "external_id":null,
+          "created_at":"2021-03-29T06:56:04.724Z",
+          "channel_integration_id":"7110bef1-83e4-4622-8a4b-09535f7beff9",
+          "updated_at":"2021-03-29T06:56:04.724Z",
+          "channel_account":"Aston Graphindo",
+          "organization_id":"8102661e-93ef-40e8-b402-ef7db4737ce6",
+          "unread_count":0,
+          "resolved_by_id":null,
+          "resolved_by_type":null,
+          "avatar":{
+             "medium":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png",
+             "filename":null,
+             "large":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "small":{
+                "url":"https://qontak-hub-production.s3-ap-southeast-1.amazonaws.com/assets/qi-user.png"
+             },
+             "size":0
+          },
+          "account_uniq_id":"6281542063225",
+          "type":"Models::CustomerServiceRoom",
+          "id":"6f5179e2-1a70-4b7e-8f86-99c9df033f2e",
+          "channel":"wa",
+          "name":"Legian Wahyu Prananta"
+       },
+       "text":"Pandemi covid menyebabkan anggaran belanja dipangkas. Pemotongan anggaran belanja juga menyebabkan keterbatasan dalam memilih katrid toner. Katrid toner orimax, hadir memberikan solusi untuk kebutuhan cetak dengan anggaran terbatas. Orimax memiliki kualitas sama dengan original. Orimax telah dipercaya oleh ribuan instansi dan perkantoran di seluruh Indonesia. \nSolusi cerdas dengan anggaran terbatas, ya Orimax. \n\nLink form/WA/landingpage",
+       "is_campaign":true,
+       "sender_id":"2fcf11ac-5d78-475a-9000-fea426e3c270",
+       "sender_type":"Models::SystemAccount",
+       "organization_id":"8102661e-93ef-40e8-b402-ef7db4737ce6",
+       "participant_type":"bot",
+       "local_id":null,
+       "room_id":"6f5179e2-1a70-4b7e-8f86-99c9df033f2e",
+       "participant_id":"3291ac5a-9ad4-48be-a591-c02909ca2a76",
+       "reply":null,
+       "type":"text",
+       "id":"2ef20739-db21-441a-80c5-56c347323978",
+       "external_id":"gBGHYoFUIGMiXwIJ0DleeF9Pn-ah"
+    }
+ ]

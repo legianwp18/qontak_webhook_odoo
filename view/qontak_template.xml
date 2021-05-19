@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<odoo>
+    <data>
+        <!-- tree view -->
+        <record id="view_qontak_webhook_qontak_bot_tree" model="ir.ui.view">
+            <field name="name">qontak_webhook_qontak_bot_tree</field>
+            <field name="model">qontak.bot</field>
+            <field name="type">tree</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <tree string="Qontak bot">
+                    <field name="sequence" widget="handle"/>
+                    <field name="key" />
+                    <field name="message" />
+                </tree>
+            </field>
+        </record>
+        <!-- form view -->
+        <record id="view_qontak_webhook_qontak_bot_form" model="ir.ui.view">
+            <field name="name">qontak_webhook_qontak_bot_form</field>
+            <field name="model">qontak.bot</field>
+            <field name="type">form</field>
+            <field name="priority" eval="8"/>
+            <field name="arch" type="xml">
+                <form string="Qontak bot">
+                    <sheet>
+                        <group>
+                            <field name="key" />
+                            <field name="message" />
+                        </group>
+                    </sheet>
+                </form>
+            </field>
+        </record>
+        <!-- search -->
+        <record id="view_qontak_webhook_qontak_bot_search" model="ir.ui.view">
+            <field name="name">qontak_webhook_qontak_bot</field>
+            <field name="model">qontak.bot</field>
+            <field name="arch" type="xml">
+                <search string="Qontak bot">
+                    <filter string="Key" name="filter_by_key" domain="[('key','=','')]" />
+                    <field name="key" select="True"/>
+                    <group string="Group By..">
+                    </group>
+                </search>
+            </field>
+        </record>
+        <!-- action window -->
+        <record id="action_qontak_webhook_qontak_bot" model="ir.actions.act_window">
+            <field name="name">Qontak bot</field>
+            <field name="type">ir.actions.act_window</field>
+            <field name="res_model">qontak.bot</field>
+            <field name="view_type">form</field>
+            <field name="view_mode">tree,form</field>
+            <field name="context">{"search_default_fieldname":1}</field>
+            <field name="help" type="html">
+                <p class="oe_view_nocontent_create">
+                Click to add a new Qontak bot
+                </p><p>
+                Click the Create button to add a new Qontak bot
+                </p>
+            </field>
+        </record>
+
+        <menuitem id="menu_qontak_webhook_qontak_bot" name="Qontak bot" parent="qontak_webhook_sub_menu" action="action_qontak_webhook_qontak_bot" sequence="30"/>
+    </data>
+</odoo>
